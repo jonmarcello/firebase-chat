@@ -1,0 +1,94 @@
+.login-container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 23.5px;
+    margin: 94px 0;
+}
+
+.login {
+    background-color: rgb(243, 243, 243);
+    border: 1px #FFF solid;
+    width: 486px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #494947;
+    border-radius: 10px;
+
+    .header {
+        height: 94px;
+        background-color: #ce8629;
+        border-radius: 10px 10px 0 0;
+        flex-shrink: 0;
+    }
+
+    .content {
+        padding: 63px;
+
+        label {
+            color: #ffffff;
+        }
+
+        .form-control {
+            background-color: #2e2e2d;
+            border: solid 1px #000000;
+            color: #FFF;
+            height: 66px;
+        }
+
+        .submit .btn {
+            background-color: #3d67b0;
+            border-radius: 10px;
+            padding: 0 20px;
+            height: 51px;
+            font-size: 23.5px;
+            border: solid 0 #000000;
+            margin: 10px 0 10px;
+        }
+
+        .submit {
+            text-align: right;
+
+            .google {
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    .footer {
+        height: 184px;
+        background-color: #3d67b0;
+        text-align: center;
+        padding: 26px 61px 60px;
+        border-radius: 0 0 10px 10px;
+
+        .footer-text {
+            font-size: 23.5px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .signup {
+            height: 66px;
+            width: 363px;
+            border-radius: 10px;
+            background-color: #ce8629;
+            border: solid 1px #000000;
+            color: #000000;
+            font-size: 23.5px;
+        }
+    }
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.messageList {
+    list-style: none;
+}
