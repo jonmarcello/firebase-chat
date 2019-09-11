@@ -1,6 +1,6 @@
-# lns-chat-app
+# firebase-chat-app
 
-> LNS Chat App
+> Firebase Chat App
 
 ## Build Setup
 
